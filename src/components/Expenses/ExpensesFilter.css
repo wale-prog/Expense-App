@@ -5,9 +5,10 @@
 
 .expenses-filter__control {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
+  gap: 0.625rem;
+  /* align-items: center; */
   margin: 1rem 0;
 }
 
@@ -21,4 +22,18 @@
   padding: 0.5rem 3rem;
   font-weight: bold;
   border-radius: 6px;
+}
+
+.expense-filter__year {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expense-filter__category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-filter {
+  color: gray;
 }
